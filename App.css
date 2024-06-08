@@ -1,0 +1,67 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 60px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #61dafb;
+}
+
+.ScoreBoard {
+  margin-top: 20px;
+}
+
+.ScoreBoard p {
+  font-size: 1.5em;
+}
+
+.runs-display {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.user-runs, .system-runs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-runs img, .system-runs img {
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+}
